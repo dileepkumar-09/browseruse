@@ -1,0 +1,64 @@
+﻿venv\Scripts\python.exe : INFO   
+  [service] Using anonymized 
+telemetry, see https://docs.brows
+er-use.com/development/monitoring
+/telemetry.
+At line:1 char:1
++ venv\Scripts\python.exe -c "
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : No 
+   tSpecified: (INFO     [servi  
+  ...ring/telemetry.:String) [   
+ ], RemoteException
+    + FullyQualifiedErrorId : Na 
+   tiveCommandError
+ 
+INFO:     Started server process 
+[23724]
+INFO:     Waiting for 
+application startup.
+INFO:     Application startup 
+complete.
+INFO:     Uvicorn running on 
+http://127.0.0.1:8001 (Press 
+CTRL+C to quit)
+INFO:     127.0.0.1:61746 - "POST /run-task HTTP/1.1" 200 OK
+WARNING  [Agent] \u26a0\ufe0f 
+DeepSeek models do not support 
+use_vision=True yet. Setting 
+use_vision=False for now...
+INFO     [Agent] [34m\U0001f3af 
+Task: test[0m
+INFO     [Agent] Starting a 
+browser-use agent with version 
+0.12.2, with provider=ollama and 
+model=deepseek-r1:7b
+WARNING  [bubus] \u26a0\ufe0f Eve
+ntBus_cec7cac9\U0001f7e2(\u23f3 
+0 | \u25b6\ufe0f 2 | \u2705 5 
+\u27a1\ufe0f 31 \U0001f442) 
+handler browser_use.browser.watch
+dog_base.BrowserSession.on_Browse
+rStartEvent() has been running 
+for >15s on event. Possible slow 
+processing or deadlock.
+(handler could be trying to 
+await its own result or could be 
+blocked by another async task).
+browser_use.browser.watchdog_base
+.BrowserSession.on_BrowserStartEv
+ent(?\u25b6 
+BrowserStartEvent#dc09 
+\U0001f3c3)
+INFO     [Agent] 
+
+INFO     [Agent] \U0001f4cd Step 
+1:
+WARNING  [Agent] \u274c Result 
+failed 1/6 times: LLM call timed 
+out after 90 seconds. Keep your 
+thinking and output short.
+INFO     [Agent] 
+
+INFO     [Agent] \U0001f4cd Step 
+2:

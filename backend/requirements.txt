@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+browser-use
+playwright
+langchain-ollama
+langchain
+python-dotenv
+websockets
+pytest
+pytest-asyncio
+httpx
